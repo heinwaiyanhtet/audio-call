@@ -1,5 +1,6 @@
 import { StreamCall, StreamVideo, StreamVideoClient, User } from '@stream-io/video-react-sdk';
 import '@stream-io/video-react-sdk/dist/css/styles.css';
+import { MyUILayout } from './components/MyUILayout';
 
 const apiKey = 'mmhfdzb5evj2';
 const token = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL3Byb250by5nZXRzdHJlYW0uaW8iLCJzdWIiOiJ1c2VyL0x1a2VfU2t5d2Fsa2VyIiwidXNlcl9pZCI6Ikx1a2VfU2t5d2Fsa2VyIiwidmFsaWRpdHlfaW5fc2Vjb25kcyI6NjA0ODAwLCJpYXQiOjE3MzYxNTc4OTIsImV4cCI6MTczNjc2MjY5Mn0.gO4k6amSS53lBVL7TkP70uynqqAJScisuNTNx7I8ePY';
@@ -17,7 +18,7 @@ const call = client.call('audio_room', callId);
 call.join({
   create: true,
   data: {
-    members: [/* { user_id: 'john_smith' }, { user_id: 'jane_doe' } */],
+    members: [{ user_id: 'john_smith' }, { user_id: 'jane_doe' }],
     custom: {
       title: 'React Rooms',
       description: 'Talking about React',
@@ -29,8 +30,7 @@ export default function App() {
   return (
     <StreamVideo client={client}>
       <StreamCall call={call}>
-        {/** We will introduce the <MyUILayout /> component later */}
-        {/** <MyUILayout /> */}
+        <MyUILayout/>       
       </StreamCall>
     </StreamVideo>
   );
