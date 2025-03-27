@@ -3,9 +3,9 @@ import '@stream-io/video-react-sdk/dist/css/styles.css';
 import { MyUILayout } from './components/MyUILayout';
 
 const apiKey = 'mmhfdzb5evj2';
-const token = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL3Byb250by5nZXRzdHJlYW0uaW8iLCJzdWIiOiJ1c2VyL0x1a2VfU2t5d2Fsa2VyIiwidXNlcl9pZCI6Ikx1a2VfU2t5d2Fsa2VyIiwidmFsaWRpdHlfaW5fc2Vjb25kcyI6NjA0ODAwLCJpYXQiOjE3MzYxNTc4OTIsImV4cCI6MTczNjc2MjY5Mn0.gO4k6amSS53lBVL7TkP70uynqqAJScisuNTNx7I8ePY';
-const userId = 'Luke_Skywalker';
-const callId = 'pRu3P4YnSJT7';
+const token = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL3Byb250by5nZXRzdHJlYW0uaW8iLCJzdWIiOiJ1c2VyL0lHXzg4IiwidXNlcl9pZCI6IklHXzg4IiwidmFsaWRpdHlfaW5fc2Vjb25kcyI6NjA0ODAwLCJpYXQiOjE3NDI5MDg2MDYsImV4cCI6MTc0MzUxMzQwNn0.EFJU4ehrhHLxqqbuMBgMHd3hNUxJAnU02aTpg3sDuZw';
+const userId = 'IG_88';
+const callId = '8l89KpBRIctq';
 // initialize the user object
 const user: User = {
   id: userId,
