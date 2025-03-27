@@ -3,9 +3,9 @@ import '@stream-io/video-react-sdk/dist/css/styles.css';
 import { MyUILayout } from './components/MyUILayout';
 
 const apiKey = 'mmhfdzb5evj2';
-const token = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL3Byb250by5nZXRzdHJlYW0uaW8iLCJzdWIiOiJ1c2VyL0lHXzg4IiwidXNlcl9pZCI6IklHXzg4IiwidmFsaWRpdHlfaW5fc2Vjb25kcyI6NjA0ODAwLCJpYXQiOjE3NDI5MDg2MDYsImV4cCI6MTc0MzUxMzQwNn0.EFJU4ehrhHLxqqbuMBgMHd3hNUxJAnU02aTpg3sDuZw';
-const userId = 'IG_88';
-const callId = '8l89KpBRIctq';
+const token = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL3Byb250by5nZXRzdHJlYW0uaW8iLCJzdWIiOiJ1c2VyL0x1bWluYXJhX1VuZHVsaSIsInVzZXJfaWQiOiJMdW1pbmFyYV9VbmR1bGkiLCJ2YWxpZGl0eV9pbl9zZWNvbmRzIjo2MDQ4MDAsImlhdCI6MTc0MzAwNjI0OSwiZXhwIjoxNzQzNjExMDQ5fQ.-R32BlSjJxZs0iZmbjgR411cuMQMvufcjpS6kOKBfnE';
+const userId = 'Luminara_Unduli';
+const callId = 'eLmvVULpSnlc';
 // initialize the user object
 const user: User = {
   id: userId,
