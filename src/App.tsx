@@ -19,7 +19,9 @@ const call = client.call('audio_room', callId);
 call.join({
   create: true,
   data: {
-    members: [{ user_id: 'john_smith' }, { user_id: 'jane_doe' }],
+    members: [
+      // { user_id: 'john_smith' }, { user_id: 'jane_doe' }
+    ],
     custom: {
       title: 'React Rooms',
       description: 'Talking about React',
