@@ -13,7 +13,21 @@ const userId = "ABCDEFGHIJKL";
 const token = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiQUJDREVGR0hJSktMIiwiZXhwIjoxNzQzODcxMTQ4fQ.5GFC2eWuGh42tk65_52ZGjF4YahpaLYM4G75ZE6P27w";
 const user = { id: userId };
 
-const client = new StreamVideoClient({ apiKey, user, token });
+const client = new StreamVideoClient(
+  { apiKey, user, token,
+    options: {
+      maxConnectUserRetries: 3,
+      onConnectUserError: (err, allErrors) => {
+        console.error("Failed to connect user", err, allErrors);
+        // handle the connect error, i.e. ask the user to retry
+        // later when they have better connection or show an error message
+      },
+    },    
+
+
+
+   }
+);
 const call = client.call("default", "my-first-call");
 call.join({ create: true });
 
