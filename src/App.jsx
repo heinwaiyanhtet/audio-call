@@ -8,13 +8,9 @@ import {
   StreamVideoClient,
 } from "@stream-io/video-react-sdk";
 
-// const apiKey = "fhadftta5n4v";
-// const userId = "679e5214e163890ef06ead3b";
-// const token = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiNjc5ZTUyMTRlMTYzODkwZWYwNmVhZDNiIiwidmFsaWRpdHlfaW5fc2Vjb25kcyI6MzYwMCwiaWF0IjoxNzQzODcyNjY0LCJleHAiOjE3NDM4NzYyNjR9.VqAxRSklfII0oq-BL7HatUtgS-TmXQqyt6JTGOzfniw"; 
-
 const apiKey = "fhadftta5n4v";
-const userId = "679e5214e163890ef06ead3b";
-const token = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiNjc5ZTUyMTRlMTYzODkwZWYwNmVhZDNiIiwidmFsaWRpdHlfaW5fc2Vjb25kcyI6MzYwMCwiaWF0IjoxNzQzODc3MDA0LCJleHAiOjE3NDM4ODA2MDR9.iy2rVONx0UlLASv11pLA2w9D6pOrNs1oghfYZQPzT_o"; 
+const userId = "679d7e025c89002b3a988049";
+const token = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiNjc5ZDdlMDI1Yzg5MDAyYjNhOTg4MDQ5IiwidmFsaWRpdHlfaW5fc2Vjb25kcyI6MzYwMCwiaWF0IjoxNzQzODc3MDA0LCJleHAiOjE3NDM4ODA2MDR9.b0vvwCDQuC5arYL9P7JV-B1r9Ta5F53ggpmhPMEp3x0"; 
 
 const user = { id: userId };
 
@@ -37,7 +33,7 @@ export default function MyApp() {
     const setupCall = async () => {
       try {
         await call.camera.disable(); // Disable camera before joining
-        await call.join({ create: false });
+        await call.join({ create: true });
       } catch (err) {
         console.error("Error setting up call:", err);
       }
