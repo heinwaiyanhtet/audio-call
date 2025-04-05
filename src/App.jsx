@@ -20,6 +20,7 @@ const call = client.call('audio_room', callId);
 call.join({
   create: true,
   members: [{ user_id: 'john_smith' }, { user_id: 'jane_doe' }],
+  member_permissions: ['send_audio', 'send_video'],
   data: {
     custom: {
       title: 'React Rooms',
