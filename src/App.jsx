@@ -44,7 +44,7 @@ export default function MyApp  ()  {
             <CallControls />
           </StreamTheme>
       </StreamCall>
-    // </StreamVideo> 
+     </StreamVideo> 
   );
 };
 
