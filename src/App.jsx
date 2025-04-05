@@ -10,7 +10,7 @@ import {
 
 const apiKey = "fhadftta5n4v";
 const userId = "679d7e025c89002b3a988049";
-const token = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiNjc5ZDdlMDI1Yzg5MDAyYjNhOTg4MDQ5IiwidmFsaWRpdHlfaW5fc2Vjb25kcyI6MzYwMCwiaWF0IjoxNzQzODcwMjYzLCJleHAiOjE3NDM4NzM4NjN9.DVyPuDUGzMD0yOQrpKb1x163FJ1m95kd_rXKRVtWokc"; 
+const token = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiNjc5ZDdlMDI1Yzg5MDAyYjNhOTg4MDQ5IiwidmFsaWRpdHlfaW5fc2Vjb25kcyI6MzYwMCwiaWF0IjoxNzQzODcxMjk5LCJleHAiOjE3NDM4NzQ4OTl9.KbwoyFA1vlrgEwUbrjFA9TCaqsNqJQL0InpwufroO3U"; 
 
 const user = { id: userId };
 
