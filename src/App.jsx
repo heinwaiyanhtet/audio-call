@@ -29,11 +29,14 @@ const client = new StreamVideoClient(
    }
 );
 const call = client.call("default", "my-first-call");
-call.join({ create: true });
+call.join({ 
+  create: true,
+  video: false,
+});
 
 export default function MyApp  ()  {
   return (
-    // <StreamVideo client={client}>
+    <StreamVideo client={client}>
       <StreamCall call={call}>
           <StreamTheme>
             <SpeakerLayout />
