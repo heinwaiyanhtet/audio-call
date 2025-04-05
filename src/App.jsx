@@ -9,8 +9,8 @@ import {
 } from "@stream-io/video-react-sdk";
 
 const apiKey = "fhadftta5n4v";
-const userId = "679d7e025c89002b3a988049";
-const token = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiNjc5ZDdlMDI1Yzg5MDAyYjNhOTg4MDQ5IiwidmFsaWRpdHlfaW5fc2Vjb25kcyI6MzYwMCwiaWF0IjoxNzQzODcxMjk5LCJleHAiOjE3NDM4NzQ4OTl9.KbwoyFA1vlrgEwUbrjFA9TCaqsNqJQL0InpwufroO3U"; 
+const userId = "679e5214e163890ef06ead3b";
+const token = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiNjc5ZTUyMTRlMTYzODkwZWYwNmVhZDNiIiwidmFsaWRpdHlfaW5fc2Vjb25kcyI6MzYwMCwiaWF0IjoxNzQzODcyNjY0LCJleHAiOjE3NDM4NzYyNjR9.VqAxRSklfII0oq-BL7HatUtgS-TmXQqyt6JTGOzfniw"; 
 
 const user = { id: userId };
 
@@ -26,7 +26,7 @@ const client = new StreamVideoClient({
   },
 });
 
-const call = client.call("audio_room", "my-first-call");
+const call = client.call("audio_room", "call-174387266531");
 
 export default function MyApp() {
   useEffect(() => {
