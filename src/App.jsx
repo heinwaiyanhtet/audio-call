@@ -3,9 +3,9 @@ import '@stream-io/video-react-sdk/dist/css/styles.css';
 import { MyUILayout } from './components/MyUILayout';
 
 const apiKey = 'mmhfdzb5evj2';
-const token = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL3Byb250by5nZXRzdHJlYW0uaW8iLCJzdWIiOiJ1c2VyL0RlbmdhciIsInVzZXJfaWQiOiJEZW5nYXIiLCJ2YWxpZGl0eV9pbl9zZWNvbmRzIjo2MDQ4MDAsImlhdCI6MTc0Mzg2MjE4MiwiZXhwIjoxNzQ0NDY2OTgyfQ.snyQvj6g6TToAWrDzEHNB0LG3ZmBVLFwPY2g-1rJeh0';
-const userId = 'Dengar';
-const callId = 'JM0L0DqicbRf';
+const token = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL3Byb250by5nZXRzdHJlYW0uaW8iLCJzdWIiOiJ1c2VyL0NoZXdiYWNjYSIsInVzZXJfaWQiOiJDaGV3YmFjY2EiLCJ2YWxpZGl0eV9pbl9zZWNvbmRzIjo2MDQ4MDAsImlhdCI6MTc0Mzg2NjAzMCwiZXhwIjoxNzQ0NDcwODMwfQ.nTn-utnU66M8cSAM_hNfOFIyuo-mGLl8rLjQ3LrDtjM';
+const userId = 'Chewbacca';
+const callId = 'Hno81lPnObro';
 // initialize the user object
 const user = {
   id: userId,
