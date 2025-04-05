@@ -32,6 +32,7 @@ const call = client.call("default", "my-first-call");
 call.join({ 
   create: true,
   video: false,
+  audio: true,
 });
 
 export default function MyApp  ()  {
