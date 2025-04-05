@@ -26,14 +26,11 @@ const client = new StreamVideoClient(
      
       },
     },    
+
    }
 );
 const call = client.call("default", "my-first-call");
-call.join({ 
-  create: true,
-  video: false,
-  audio: true,
-});
+call.join({ create: true });
 
 export default function MyApp  ()  {
   return (
@@ -44,7 +41,7 @@ export default function MyApp  ()  {
             <CallControls />
           </StreamTheme>
       </StreamCall>
-     </StreamVideo> 
+    </StreamVideo> 
   );
 };
 
