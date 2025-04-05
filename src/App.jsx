@@ -9,8 +9,8 @@ import {
 
 
 const apiKey = "fhadftta5n4v";
-const userId = "ABCDEFGHIJKL";
-const token = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiQUJDREVGR0hJSktMIiwiZXhwIjoxNzQzODcxMTQ4fQ.5GFC2eWuGh42tk65_52ZGjF4YahpaLYM4G75ZE6P27w";
+const userId = "679d7e025c89002b3a988049";
+const token = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiNjc5ZDdlMDI1Yzg5MDAyYjNhOTg4MDQ5IiwidmFsaWRpdHlfaW5fc2Vjb25kcyI6MzYwMCwiaWF0IjoxNzQzODY4MTM4LCJleHAiOjE3NDM4NzE3Mzh9.DBUDEiW1mKDjDDCikxyyfRpQB8_4R3r_xP36iQ9hTyw";
 const user = { id: userId };
 
 const client = new StreamVideoClient(
