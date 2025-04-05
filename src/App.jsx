@@ -30,7 +30,9 @@ const client = new StreamVideoClient(
    }
 );
 const call = client.call("audio_room", "my-first-call");
-call.join({ create: true });
+await call.camera.disable(); 
+call.join(
+    { create: true });
 
 export default function MyApp  ()  {
   return (
