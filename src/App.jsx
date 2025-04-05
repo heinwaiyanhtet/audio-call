@@ -13,8 +13,8 @@ import {
 // const token = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiNjc5ZTUyMTRlMTYzODkwZWYwNmVhZDNiIiwidmFsaWRpdHlfaW5fc2Vjb25kcyI6MzYwMCwiaWF0IjoxNzQzODcyNjY0LCJleHAiOjE3NDM4NzYyNjR9.VqAxRSklfII0oq-BL7HatUtgS-TmXQqyt6JTGOzfniw"; 
 
 const apiKey = "fhadftta5n4v";
-const userId = "679d7e025c89002b3a988049";
-const token = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiNjc5ZDdlMDI1Yzg5MDAyYjNhOTg4MDQ5IiwidmFsaWRpdHlfaW5fc2Vjb25kcyI6MzYwMCwiaWF0IjoxNzQzODc2NDE0LCJleHAiOjE3NDM4ODAwMTR9.ZvmDh0SRGJNqB6bZRgyeQUEJCR40DVwvLRhz5tZ1d5c"; 
+const userId = "679e5214e163890ef06ead3b";
+const token = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiNjc5ZTUyMTRlMTYzODkwZWYwNmVhZDNiIiwidmFsaWRpdHlfaW5fc2Vjb25kcyI6MzYwMCwiaWF0IjoxNzQzODc3MDA0LCJleHAiOjE3NDM4ODA2MDR9.iy2rVONx0UlLASv11pLA2w9D6pOrNs1oghfYZQPzT_o"; 
 
 const user = { id: userId };
 
@@ -30,7 +30,7 @@ const client = new StreamVideoClient({
   },
 });
 
-const call = client.call("audio_room", "call-1743876415255");
+const call = client.call("audio_room", "call-1743877004975");
 
 export default function MyApp() {
   useEffect(() => {
