@@ -27,7 +27,7 @@ const client = new StreamVideoClient({
   },
 });
 
-const call = client.call("audio_room", "1744050824638");
+const call = client.call("audio_room", "call-1744050824638");
 export default function MyApp() {
   useEffect(() => {
     const setupCall = async () => {
