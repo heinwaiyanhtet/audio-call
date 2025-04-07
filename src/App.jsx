@@ -10,8 +10,8 @@ import {
 
 
 const apiKey = "fhadftta5n4v";
-const userId = "0175574b0be630474d3e1c7c";
-const token = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiMDE3NTU3NGIwYmU2MzA0NzRkM2UxYzdjIiwidmFsaWRpdHlfaW5fc2Vjb25kcyI6MzYwMCwiaWF0IjoxNzQ0MDUzMjI5LCJleHAiOjE3NDQwNTY4Mjl9.2fhGakVjpsrUPY3V3BcT_6fJLkD8CwFQHDHymqPVfsc"; 
+const userId = "679d7e025c89002b3a988049";
+const token = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiNjc5ZDdlMDI1Yzg5MDAyYjNhOTg4MDQ5IiwidmFsaWRpdHlfaW5fc2Vjb25kcyI6MzYwMCwiaWF0IjoxNzQ0MDUzNDM1LCJleHAiOjE3NDQwNTcwMzV9.y6DTfvbaK6s97PSG_TolufvVBxt6D8qIQFLNRcyec-Y"; 
 
 const user = { id: userId };
 
@@ -27,13 +27,13 @@ const client = new StreamVideoClient({
   },
 });
 
-const call = client.call("audio_room", "call-1744053230688");
+const call = client.call("audio_room", "call-1744053436701");
 export default function MyApp() {
   useEffect(() => {
     const setupCall = async () => {
       try {
         await call.camera.disable(); 
-        await call.join({ create: false });
+        await call.join({ create: true });
       } catch (err) {
         console.error("Error setting up call:", err);
       }
