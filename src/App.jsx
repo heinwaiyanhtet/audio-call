@@ -15,6 +15,7 @@ const token = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiYTFkYWM4MGUw
 
 const user = { id: userId };
 
+
 const client = new StreamVideoClient({
   apiKey,
   user,
