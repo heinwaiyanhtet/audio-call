@@ -11,7 +11,7 @@ import {
 
 const apiKey = "fhadftta5n4v";
 const userId = "a1dac80e07c6fb368df35bfe";
-const token = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiYTFkYWM4MGUwN2M2ZmIzNjhkZjM1YmZlIiwidmFsaWRpdHlfaW5fc2Vjb25kcyI6MzYwMCwiaWF0IjoxNzQ0Njk0NzYzLCJleHAiOjE3NDQ2OTgzNjN9.Km82ZeCGl61WwnijfL4zBHNKwQoGN8v87Xe4qblogTc"; 
+const token = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiYTFkYWM4MGUwN2M2ZmIzNjhkZjM1YmZlIiwidmFsaWRpdHlfaW5fc2Vjb25kcyI6MzYwMCwiaWF0IjoxNzQ0NzMxNzA5LCJleHAiOjE3NDQ3MzUzMDl9.W_hRMp2S7B1WK6g49WYdZf3CzS5F3uPVH7fQsi4Z7Gs"; 
 
 const user = { id: userId };
 
@@ -28,7 +28,7 @@ const client = new StreamVideoClient({
   },
 });
 
-const call = client.call("audio_room", "call-1744694764153");
+const call = client.call("audio_room", "call-1744731710371");
 export default function MyApp() {
   useEffect(() => {
     const setupCall = async () => {
