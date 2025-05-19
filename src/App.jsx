@@ -34,7 +34,7 @@ export default function MyApp() {
     const setupCall = async () => {
       try {
         await call.camera.disable(); 
-        await call.join({ create: false });
+        await call.join({ create: true });
       } catch (err) {
         console.error("Error setting up call:", err);
       }
