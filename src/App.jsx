@@ -66,4 +66,4 @@ export default function MyApp() {
       </StreamCall>
     </StreamVideo>
   );
-}"; 
+}; 
