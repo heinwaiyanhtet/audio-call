@@ -9,17 +9,6 @@ import {
 } from "@stream-io/video-react-sdk";
 
 
-const apiKey = "fhadftta5n4v";
-const userId = "67a818e525b4c0eff6ce55a7";
-// const userId = "679e5214e163890ef06ead3b";
-import {
-  CallControls,
-  SpeakerLayout,
-  StreamCall,
-  StreamTheme,
-  StreamVideo,
-  StreamVideoClient,
-} from "@stream-io/video-react-sdk";
 
 
 const apiKey = "fhadftta5n4v";
