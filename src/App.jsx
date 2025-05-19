@@ -10,8 +10,8 @@ import {
 
 
 const apiKey = "fhadftta5n4v";
-// const userId = "67a818e525b4c0eff6ce55a7";
-const userId = "679e5214e163890ef06ead3b";
+const userId = "67a818e525b4c0eff6ce55a7";
+// const userId = "679e5214e163890ef06ead3b";
 const token = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiNjdhODE4ZTUyNWI0YzBlZmY2Y2U1NWE3IiwidmFsaWRpdHlfaW5fc2Vjb25kcyI6MzYwMCwiaWF0IjoxNzQ3NjYzNzIwLCJleHAiOjE3NDc2NjczMjB9.cRKILj_kMz_UMBXHH7wDvKunlfso5DPxzG_n0xVrPfc"; 
 
 const user = { id: userId };
@@ -35,7 +35,7 @@ export default function MyApp() {
     const setupCall = async () => {
       try {
         await call.camera.disable(); 
-        await call.join({ create: false });
+        await call.join({ create: true });
       } catch (err) {
         console.error("Error setting up call:", err);
       }
